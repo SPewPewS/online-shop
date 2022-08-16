@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    margin-right: 0px;
+    justify-content: space-between;
+}
+
+.cart {
+    margin-top: 15px;
+    margin-right: 15px;
+}
