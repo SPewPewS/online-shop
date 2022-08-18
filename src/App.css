@@ -6,7 +6,7 @@
 }
 
 .App {
-    background: beige;
+    background-color: #f9d549;
 
 
 }
@@ -15,14 +15,22 @@
     margin: 0 auto;
     width: 800px;
 
+
 }
 
 .headerItem{
 
     margin: 50px auto;
     min-width: 50px;
-    padding: 50px;
-    border: red solid 2px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.cat{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
 }
 
 .itemContainer {

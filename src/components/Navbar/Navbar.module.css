@@ -1,8 +1,22 @@
 .navbar {
     width: 280px;
     height: 400px;
-    background: teal;
     margin-left: 20px;
+    border: black 2px solid;
+    display: flex;
+    justify-content: center;
 
 
+
+}
+
+
+.about {
+    margin: 10px;
+    padding: 5px;
+    display: block;
+    width: 200px;
+    color: black;
+    text-decoration: none;
+    border: black 2px solid;
 }

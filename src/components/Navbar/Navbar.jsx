@@ -6,13 +6,14 @@ const Navbar = () => {
     return (
         <div className={s.navbar}>
             <div>
-                <a href="">122112</a>
-            </div>
-            <div>
-                <a href="">122112</a>
-            </div>
-            <div>
-                <a href="">122112</a>
+                <div>
+                    <NavLink className={s.about} to='/*'>About</NavLink>
+                </div>
+                <div>
+                    <NavLink className={s.about} to='/*'>Contacts</NavLink>
+                </div>
+
+
             </div>
 
 

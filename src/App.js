@@ -5,7 +5,9 @@ import Products from "./components/Products/Products/Products";
 import Navbar from "./components/Navbar/Navbar";
 import React from "react";
 
+
 function App() {
+
     return (
         <div className="App">
             <Header />
@@ -13,9 +15,7 @@ function App() {
             <Navbar />
             <Products />
             </div>
-
-
-
+            
             </div>
 
 
