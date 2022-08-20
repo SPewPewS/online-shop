@@ -4,17 +4,11 @@ const SET_CATS = 'SET_CATS';
 
 let initialState = {
     cats: [
-        /*{id: 1, breed: 'Бенгальская', description: 'dssddsdsdsdsds' },
-        {id: 2, breed: 'Бомбейская', description: 'dffdddddd' },
-        {id: 3, breed: 'Гавана', description: 'fffffffffff' },
-        {id: 3, breed: 'Гавана', description: 'fffffffffff' },
-        {id: 3, breed: 'Гавана', description: 'fffffffffff' },*/
     ]
 
 }
 
 const catsReducer = (state = initialState, action) => {
-
 
     switch (action.type) {
         case SET_CATS:

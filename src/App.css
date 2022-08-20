@@ -6,6 +6,9 @@
 }
 
 .App {
+    display: flex;
+    flex-direction: column;
+    min-width: 800px;
     background-color: #f9d549;
 
 
@@ -22,9 +25,6 @@
 
     margin: 50px auto;
     min-width: 50px;
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
 }
 
 .cat{
@@ -44,7 +44,6 @@
 
 .products {
     display: flex;
-
     flex-wrap: wrap;
 
 }

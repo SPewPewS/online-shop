@@ -1,6 +1,5 @@
 import {applyMiddleware, combineReducers, legacy_createStore} from "redux";
 import catsReducer from "./cats-reducer";
-import thunk from "redux-thunk";
 import thunkMiddleware from "redux-thunk"
 
 
